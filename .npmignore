@@ -1,0 +1,9 @@
+.editorconfig
+.gitattributes
+.gitignore
+
+# OS specific files
+**/._*
+**/.DS_Store
+**/*.DS_Store
+**/Thumbs.db
