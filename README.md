@@ -5,12 +5,20 @@ personal eslint / prettier setting
 ## Features
 
 - Lint javascript based on [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base)
-- Formatting error with [/prettier-config-amati](https://www.npmjs.com/package/prettier-config-amati)
+- Formatting error with [prettier-config-amati](https://www.npmjs.com/package/prettier-config-amati)
 
 ## Install
 
+Check a list of packages to be installed.
+
 ```shell
-$ npx install-peerdeps --dev eslint-config-aaronccasanova
+$ npm info "eslint-config-amati@latest" peerDependencies
+```
+
+If using npm 5+, you can use this shortcut
+
+```shell
+$ npx install-peerdeps --dev eslint-config-amati
 ```
 
 ## Usage for Eslint

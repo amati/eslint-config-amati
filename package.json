@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-amati",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal Eslint / Prettier settings",
   "main": "index.js",
   "repository": {
