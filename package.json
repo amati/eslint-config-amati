@@ -1,0 +1,55 @@
+{
+  "name": "eslint-config-amati",
+  "version": "1.0.0",
+  "description": "Personal Eslint / Prettier settings",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:amati/eslint-config-amati.git"
+  },
+  "keywords": [
+    "eslint",
+    "prettier",
+    "eslint-config",
+    "prettier-config",
+    "react"
+  ],
+  "author": "amati <preserde.gmail.com> (https://amati.io)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-html": "^6.0.3",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "prettier": "^2.1.1",
+    "prettier-config-amati": "^1.0.0"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-html": "^6.0.3",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "prettier": "^2.1.1",
+    "prettier-config-amati": "^1.0.0"
+  },
+  "prettier": "prettier-config-amati",
+  "scripts": {
+    "format": "prettier --write \"**/*.+(js|md|ts|css|sass|less|graphql|yml|yaml|scss|json|vue)\"",
+    "lint": "eslint ."
+  }
+}
